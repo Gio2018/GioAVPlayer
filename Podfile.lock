@@ -1,0 +1,20 @@
+PODS:
+  - Pulley (1.5.2)
+  - XCDYouTubeKit (2.5.6)
+
+DEPENDENCIES:
+  - Pulley
+  - XCDYouTubeKit (~> 2.5)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Pulley
+    - XCDYouTubeKit
+
+SPEC CHECKSUMS:
+  Pulley: f5213e59f3bc8f0d74e933d98b9b2000a0fd4d18
+  XCDYouTubeKit: dccfe0c17dd5c5187969ec27e93069573badb08f
+
+PODFILE CHECKSUM: 2e74ac1e28a25f9164045b46cac26d325991539d
+
+COCOAPODS: 1.5.0
