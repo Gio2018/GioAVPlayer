@@ -75,7 +75,8 @@ extension GRMediaManager {
                                                 self.mediaList.append(video)
                                                 if self.mediaList.count % 2 == 0 {
                                                     self.myAwesomePlayList.append(video)
-                                                }                },
+                                                }
+                },
                                             failure: {error in
                                                 if _isDebugAssertConfiguration() {
                                                     print("Error on video id \(mediaId): \(error?.localizedDescription ?? "Unknown error")")

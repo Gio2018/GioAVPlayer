@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0635B12081D252006A04E0 /* GioAVPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0635B02081D252006A04E0 /* GioAVPlayerTests.swift */; };
 		3F3D0D9B207D004B006D99A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D0D9A207D004B006D99A0 /* AppDelegate.swift */; };
 		3F3D0DA0207D004B006D99A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0D9E207D004B006D99A0 /* Main.storyboard */; };
 		3F3D0DA2207D004C006D99A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3D0DA1207D004C006D99A0 /* Assets.xcassets */; };
@@ -33,9 +34,24 @@
 		3F3D0DE1207F968A006D99A0 /* AVPlayerViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D0DE0207F968A006D99A0 /* AVPlayerViewPresenter.swift */; };
 		3F3D0DE620801D2F006D99A0 /* YouTubeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3D0DE520801D2F006D99A0 /* YouTubeService.swift */; };
 		C05FD20149EF4DD55CFA2BC2 /* Pods_GioAVPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F0F3A41230A92859FB8775 /* Pods_GioAVPlayer.framework */; };
+		F69D0598F3E1DB954C7D2964 /* Pods_GioAVPlayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87455CFD933CBC760A3BEC4 /* Pods_GioAVPlayerTests.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3F0635B32081D252006A04E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F3D0D8F207D004B006D99A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3D0D96207D004B006D99A0;
+			remoteInfo = GioAVPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		3D422C279B8635798E1CB3ED /* Pods-GioAVPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GioAVPlayerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GioAVPlayerTests/Pods-GioAVPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F0635AE2081D252006A04E0 /* GioAVPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GioAVPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0635B02081D252006A04E0 /* GioAVPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GioAVPlayerTests.swift; sourceTree = "<group>"; };
+		3F0635B22081D252006A04E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F3D0D97207D004B006D99A0 /* GioAVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GioAVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3D0D9A207D004B006D99A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F3D0D9F207D004B006D99A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,10 +82,20 @@
 		3F3D0DE520801D2F006D99A0 /* YouTubeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeService.swift; sourceTree = "<group>"; };
 		57F0F3A41230A92859FB8775 /* Pods_GioAVPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GioAVPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A6660CBC4CB508011B5930 /* Pods-GioAVPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GioAVPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-GioAVPlayer/Pods-GioAVPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		90F6305FEC4B9416A322EA48 /* Pods-GioAVPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GioAVPlayerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GioAVPlayerTests/Pods-GioAVPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
 		E215C7B21B3B5821204AD719 /* Pods-GioAVPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GioAVPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GioAVPlayer/Pods-GioAVPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		E87455CFD933CBC760A3BEC4 /* Pods_GioAVPlayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GioAVPlayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3F0635AB2081D252006A04E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69D0598F3E1DB954C7D2964 /* Pods_GioAVPlayerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F3D0D94207D004B006D99A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,12 +107,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F0635AF2081D252006A04E0 /* GioAVPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F0635B02081D252006A04E0 /* GioAVPlayerTests.swift */,
+				3F0635B22081D252006A04E0 /* Info.plist */,
+			);
+			path = GioAVPlayerTests;
+			sourceTree = "<group>";
+		};
 		3F3D0D8E207D004B006D99A0 = {
 			isa = PBXGroup;
 			children = (
 				3F3D0D99207D004B006D99A0 /* GioAVPlayer */,
 				3F3D0DAD207D1E67006D99A0 /* Resources */,
 				3F3D0DAE207D1E84006D99A0 /* Supporting Files */,
+				3F0635AF2081D252006A04E0 /* GioAVPlayerTests */,
 				3F3D0D98207D004B006D99A0 /* Products */,
 				9AEAF8D1AE053840312BFA20 /* Pods */,
 				CDF33CD59DB62A4556CCBA23 /* Frameworks */,
@@ -97,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				3F3D0D97207D004B006D99A0 /* GioAVPlayer.app */,
+				3F0635AE2081D252006A04E0 /* GioAVPlayerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -242,6 +279,8 @@
 			children = (
 				E215C7B21B3B5821204AD719 /* Pods-GioAVPlayer.debug.xcconfig */,
 				86A6660CBC4CB508011B5930 /* Pods-GioAVPlayer.release.xcconfig */,
+				3D422C279B8635798E1CB3ED /* Pods-GioAVPlayerTests.debug.xcconfig */,
+				90F6305FEC4B9416A322EA48 /* Pods-GioAVPlayerTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -250,6 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				57F0F3A41230A92859FB8775 /* Pods_GioAVPlayer.framework */,
+				E87455CFD933CBC760A3BEC4 /* Pods_GioAVPlayerTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -257,6 +297,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3F0635AD2081D252006A04E0 /* GioAVPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0635B72081D252006A04E0 /* Build configuration list for PBXNativeTarget "GioAVPlayerTests" */;
+			buildPhases = (
+				6E1E90748674C9C76F2C3003 /* [CP] Check Pods Manifest.lock */,
+				3F0635AA2081D252006A04E0 /* Sources */,
+				3F0635AB2081D252006A04E0 /* Frameworks */,
+				3F0635AC2081D252006A04E0 /* Resources */,
+				A7184B07CF8D79FD9055AAA2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0635B42081D252006A04E0 /* PBXTargetDependency */,
+			);
+			name = GioAVPlayerTests;
+			productName = GioAVPlayerTests;
+			productReference = 3F0635AE2081D252006A04E0 /* GioAVPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		3F3D0D96207D004B006D99A0 /* GioAVPlayer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F3D0DA9207D004C006D99A0 /* Build configuration list for PBXNativeTarget "GioAVPlayer" */;
@@ -287,6 +347,10 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Giorgio Ruscigno";
 				TargetAttributes = {
+					3F0635AD2081D252006A04E0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 3F3D0D96207D004B006D99A0;
+					};
 					3F3D0D96207D004B006D99A0 = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -306,11 +370,19 @@
 			projectRoot = "";
 			targets = (
 				3F3D0D96207D004B006D99A0 /* GioAVPlayer */,
+				3F0635AD2081D252006A04E0 /* GioAVPlayerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3F0635AC2081D252006A04E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F3D0D95207D004B006D99A0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -358,6 +430,24 @@
 			shellPath = /bin/sh;
 			shellScript = "TAGS=\"TODO:|FIXME:\"\nfind \"${SRCROOT}/GioAVPlayer\" \\( -name \"*.h\" -or -name \"*.m\" -or -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\"";
 		};
+		6E1E90748674C9C76F2C3003 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GioAVPlayerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		887C09FCE9752DC5A821760E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -376,9 +466,37 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A7184B07CF8D79FD9055AAA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GioAVPlayerTests/Pods-GioAVPlayerTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Pulley/Pulley.framework",
+				"${BUILT_PRODUCTS_DIR}/XCDYouTubeKit/XCDYouTubeKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pulley.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCDYouTubeKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GioAVPlayerTests/Pods-GioAVPlayerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3F0635AA2081D252006A04E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0635B12081D252006A04E0 /* GioAVPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F3D0D93207D004B006D99A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -410,6 +528,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		3F0635B42081D252006A04E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F3D0D96207D004B006D99A0 /* GioAVPlayer */;
+			targetProxy = 3F0635B32081D252006A04E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		3F3D0D9E207D004B006D99A0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -430,6 +556,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3F0635B52081D252006A04E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D422C279B8635798E1CB3ED /* Pods-GioAVPlayerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GioAVPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gio.GioAVPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GioAVPlayer.app/GioAVPlayer";
+			};
+			name = Debug;
+		};
+		3F0635B62081D252006A04E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F6305FEC4B9416A322EA48 /* Pods-GioAVPlayerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GioAVPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gio.GioAVPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GioAVPlayer.app/GioAVPlayer";
+			};
+			name = Release;
+		};
 		3F3D0DA7207D004C006D99A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -552,10 +710,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7HAT4WQVC;
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gio.GioAVPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/GioAVPlayer-Bridging-Header.h";
@@ -572,10 +727,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H7HAT4WQVC;
 				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gio.GioAVPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/GioAVPlayer-Bridging-Header.h";
@@ -587,6 +739,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3F0635B72081D252006A04E0 /* Build configuration list for PBXNativeTarget "GioAVPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0635B52081D252006A04E0 /* Debug */,
+				3F0635B62081D252006A04E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3F3D0D92207D004B006D99A0 /* Build configuration list for PBXProject "GioAVPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
