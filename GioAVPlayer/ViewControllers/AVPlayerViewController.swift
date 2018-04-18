@@ -101,17 +101,14 @@ extension AVPlayerViewController: AVPlayerPresenterDelegate {
 
 //  MARK: PulleyDrawerViewControllerDelegate (Player View)
 extension AVPlayerViewController: PulleyDrawerViewControllerDelegate {
-    
     /// Defines the collapsed position of the player
-    func collapsedDrawerHeight() -> CGFloat {
+    func collapsedDrawerHeight(bottomSafeArea: CGFloat) -> CGFloat {
         return 68.0
     }
-    
     /// Defines the position of the player where the bacground shadowing starts
-    func partialRevealDrawerHeight() -> CGFloat {
+    func partialRevealDrawerHeight(bottomSafeArea: CGFloat) -> CGFloat {
         return 264.0
     }
-    
     /// Defines the available positions for the drawer (Player)
     func supportedDrawerPositions() -> [PulleyPosition] {
         return [PulleyPosition.open, PulleyPosition.closed, PulleyPosition.collapsed]
